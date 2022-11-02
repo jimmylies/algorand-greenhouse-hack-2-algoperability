@@ -1,0 +1,268 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(4, 15, 96);
+  background: radial-gradient(
+    circle,
+    rgb(55, 32, 77) 20%,
+    rgb(38, 23, 56) 80%
+  ) !important;
+  color: white !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+  white-space: pre;
+}
+
+header {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+/* chain list */
+
+.MuiOutlinedInput-root.MuiInputBase-root.MuiInputBase-colorPrimary.MuiInputBase-formControl.menuItem.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root
+  fieldset {
+  border: 2px solid #fff;
+}
+
+.MuiMenuItem-root.MuiMenuItem-gutters.MuiButtonBase-root.menuItem.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
+  color: #000 !important;
+}
+
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root.Mui-selected {
+  color: #000 !important;
+}
+
+.MuiInputLabel-root.MuiInputLabel-formControl.MuiInputLabel-animated.MuiInputLabel-shrink.MuiInputLabel-outlined.MuiFormLabel-root.MuiFormLabel-colorPrimary.MuiFormLabel-filled.blockchain-selector.css-1sumxir-MuiFormLabel-root-MuiInputLabel-root {
+  color: #2669f5;
+}
+
+.MuiInputLabel-root.MuiInputLabel-formControl.MuiInputLabel-animated.MuiInputLabel-shrink.MuiInputLabel-outlined.MuiFormLabel-root.MuiFormLabel-colorPrimary.MuiFormLabel-filled.blockchain-selector.css-1sumxir-MuiFormLabel-root-MuiInputLabel-root {
+  font-size: 1.1rem;
+  color: white;
+}
+
+.connect {
+  margin: 0.5rem 1rem;
+  padding: 0.1rem 1rem;
+  height: 41px;
+  width: 140px;
+  border: 1px solid #000;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  color: #000;
+  background-color: #fff;
+}
+.menuItem {
+  color: white !important;
+  border: white;
+}
+
+.blockchain-logo {
+  object-fit: cover;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.page-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0.5rem 1rem;
+  color: white;
+}
+
+.App h1 {
+  width: 100%;
+  border-bottom: 1px solid white;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.App h2 {
+  text-align: center;
+}
+
+.refresh-algo-status {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border: 2px solid white;
+  width: 250px;
+  padding: 1rem;
+  border-radius: 15px;
+  text-transform: uppercase;
+  word-spacing: 0.2rem;
+  margin: 0 auto;
+  margin-top: 5rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.refresh-off {
+  display: none;
+}
+
+.transfert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 3rem 0;
+}
+.nba {
+  display: none;
+}
+
+.nbaRefreshed {
+  display: flex;
+}
+
+.collectionNba {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.myNFTs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0.5rem 1rem;
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: rgb(236, 236, 236);
+}
+
+.myNFTs:hover {
+  filter: brightness(130%);
+}
+
+.myNFTs p {
+  font-size: 1.2rem;
+}
+
+.myNFTs img {
+  border-radius: 10px;
+  margin: 1.7rem 1.7rem;
+}
+
+.collection-selected {
+  filter: brightness(130%) !important;
+}
+
+.details {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  font-size: 0.9rem;
+}
+
+.details p {
+  margin: 0 !important;
+  padding: 0.3rem;
+}
+
+.showDetails {
+  display: flex;
+}
+
+.container-chain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0;
+}
+
+.retrieve-list {
+  text-align: left;
+  margin-bottom: 4rem;
+}
+
+.diff-blockchain {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+}
+
+.blockchain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.collections {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: 45vh;
+}
+
+.collections img {
+  width: 120px;
+  border-radius: 5px;
+  cursor: pointer;
+  filter: brightness(80%);
+}
+
+.collections img:hover {
+  filter: brightness(130%);
+}
+
+.collection-selected {
+  filter: brightness(130%) !important;
+}
+
+.btn-retrieve-list {
+  border: 2px solid #fff;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  margin: 0 auto;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 2rem !important;
+}
+
+.po {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: .2rem 0;
+}
+
+.box {
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 0.3rem 0.7rem;
+  margin-left: 1rem;
+}
